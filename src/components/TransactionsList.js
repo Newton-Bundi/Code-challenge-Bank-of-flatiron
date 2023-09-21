@@ -21,7 +21,7 @@ function TransactionsList(props) {
 
   useEffect(() => {
     fetchData()
-  }, []); 
+  }, [transcationData]); 
 
 
   useEffect(() => {
